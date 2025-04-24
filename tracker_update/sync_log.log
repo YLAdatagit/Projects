@@ -1,0 +1,161 @@
+2025-04-16 13:41:59,717 - INFO - === Sheet Sync Started ===
+2025-04-16 13:41:59,718 - INFO - Starting sync: RAW @ CCS Progress tracker_Update_1.xlsx
+2025-04-16 13:41:59,721 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_1_backup_2025-04-16_1341.xlsx
+2025-04-16 13:42:11,657 - INFO - [\u2714] Sync completed: RAW @ CCS Progress tracker_Update_1.xlsx (Time taken: 11.94s)
+2025-04-16 13:42:11,663 - INFO - === Sheet Sync Finished ===
+
+2025-04-16 13:42:41,269 - INFO - === Sheet Sync Started ===
+2025-04-16 13:42:41,269 - INFO - Starting sync: RAW @ CCS Progress tracker_Update_1.xlsx
+2025-04-16 13:42:41,272 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_1_backup_2025-04-16_1342.xlsx
+2025-04-16 13:42:55,092 - INFO - [\u2714] Sync completed: RAW @ CCS Progress tracker_Update_1.xlsx (Time taken: 13.82s)
+2025-04-16 13:42:55,097 - INFO - === Sheet Sync Finished ===
+
+2025-04-16 13:44:38,109 - INFO - === Sheet Sync Started ===
+2025-04-16 13:44:38,110 - INFO - Starting sync: RAW @ CCS Progress tracker_Update_1.xlsx
+2025-04-16 13:44:38,112 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_1_backup_2025-04-16_1344.xlsx
+2025-04-16 13:44:51,798 - INFO - [\u2714] Sync completed: RAW @ CCS Progress tracker_Update_1.xlsx (Time taken: 13.69s)
+2025-04-16 13:44:51,802 - INFO - === Sheet Sync Finished ===
+
+2025-04-16 13:51:23,526 - INFO - === Sheet Sync Started ===
+2025-04-16 13:51:23,527 - INFO - Starting sync: RAW @ CCS Progress tracker_Update_1.xlsx
+2025-04-16 13:51:23,529 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_1_backup_2025-04-16_1351.xlsx
+2025-04-16 13:51:36,340 - INFO - Sync completed: RAW @ CCS Progress tracker_Update_1.xlsx (Time taken: 12.81s)
+2025-04-16 13:51:36,345 - INFO - === Sheet Sync Finished ===
+
+2025-04-16 14:37:00,513 - INFO - === Sheet Sync Started ===
+2025-04-16 14:37:00,514 - INFO - Starting sync: RAW @ CCS Progress tracker_Update_1.xlsx
+2025-04-16 14:37:00,515 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_1_backup_2025-04-16_1437.xlsx
+2025-04-16 14:37:10,311 - INFO - Sync completed: RAW @ CCS Progress tracker_Update_1.xlsx (Time taken: 9.80s)
+2025-04-16 14:37:10,317 - INFO - === Sheet Sync Finished ===
+
+2025-04-16 15:57:15,348 - INFO - === MasterDB Sync Started ===
+2025-04-16 15:57:15,349 - ERROR -  MasterDB sync failed: [Errno 2] No such file or directory: 'D:\\D&T Project\\Database\\Master DB\\MasterDB updated process_BMA_WK202514.rar'
+2025-04-16 15:57:15,349 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 15:57:45,731 - INFO - === MasterDB Sync Started ===
+2025-04-16 15:57:45,754 - ERROR -  MasterDB sync failed: Cannot find working tool
+2025-04-16 15:57:45,755 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:00:37,360 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:00:37,365 - ERROR -  MasterDB sync failed: Cannot find working tool
+2025-04-16 16:00:37,365 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:10:32,905 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:10:32,911 - ERROR -  MasterDB sync failed: Cannot find working tool
+2025-04-16 16:10:32,911 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:13:55,667 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:14:41,498 - ERROR -  MasterDB sync failed: Failed the read enough data: req=1048576 got=0
+2025-04-16 16:14:41,499 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:23:39,236 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:27:12,547 - ERROR -  MasterDB sync failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "your_user"
+
+2025-04-16 16:27:12,547 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:30:21,686 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:33:25,111 - ERROR -  MasterDB sync failed: [Errno 13] Permission denied: 'D:\\D&T Project\\Database\\MasterDB\\Processed\\MD_LTE_W2514.csv'
+2025-04-16 16:33:25,348 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:36:24,577 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:39:53,848 - ERROR -  MasterDB sync failed: relation "lte_wk2512" does not exist
+LINE 1: CREATE TABLE lte_wk2514 (LIKE lte_wk2512 INCLUDING ALL);
+                                      ^
+
+2025-04-16 16:39:53,848 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 16:46:23,200 - INFO - === MasterDB Sync Started ===
+2025-04-16 16:50:03,243 - ERROR -  MasterDB sync failed: column "cell_name" does not exist
+LINE 4:             WHEN cell_name ~ '[A-Z]{3}\d{4}|[A-Z]{4}\d{3}' 
+                         ^
+HINT:  Perhaps you meant to reference the column "nr_wk2514.nr_cell_name" or the column "nr_wk2514.cell_type".
+
+2025-04-16 16:50:03,243 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 19:21:01,155 - INFO - === MasterDB Sync Started ===
+2025-04-16 19:21:01,521 - ERROR -  MasterDB sync failed: Extraction failed: 
+2025-04-16 19:21:01,522 - INFO - === MasterDB Sync Finished ===
+
+
+2025-04-16 19:53:59,448 - INFO - === MasterDB Sync Started ===
+2025-04-16 19:58:03,386 - INFO - Uploading LTE...
+2025-04-16 19:58:03,442 - ERROR -  LTE upload failed: relation "lte_wk2514" already exists
+
+2025-04-16 19:58:03,442 - INFO - Uploading NR...
+2025-04-16 19:58:04,596 - ERROR -  NR upload failed: column "cell_name" does not exist
+LINE 4:             WHEN cell_name ~ '[A-Z]{3}\d{4}|[A-Z]{4}\d{3}' 
+                         ^
+HINT:  Perhaps you meant to reference the column "nr_wk2514.nr_cell_name" or the column "nr_wk2514.cell_type".
+
+2025-04-16 19:58:04,596 - INFO - === MasterDB Sync Finished ===
+
+2025-04-16 20:04:31,721 - INFO - === MasterDB Sync Started ===
+2025-04-16 20:08:14,695 - INFO - Uploading LTE...
+2025-04-16 20:08:14,869 - ERROR -  LTE upload failed: relation "lte_wk2514" already exists
+
+2025-04-16 20:08:14,869 - INFO - Uploading NR...
+2025-04-16 20:08:16,966 - INFO - === MasterDB Sync Finished ===
+
+2025-04-17 19:08:17,472 - INFO - === Sheet Sync Started ===
+2025-04-17 19:08:17,473 - INFO - Starting sync: RAW @ CCS Progress tracker_Update_1.xlsx
+2025-04-17 19:08:17,477 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_1_backup_2025-04-17_1908.xlsx
+2025-04-17 19:08:33,783 - INFO - Sync completed: RAW @ CCS Progress tracker_Update_1.xlsx (Time taken: 16.31s)
+2025-04-17 19:08:33,789 - INFO - === Sheet Sync Finished ===
+
+2025-04-17 19:12:46,120 - INFO - === Sheet Sync Started ===
+2025-04-17 19:12:46,120 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-17 19:12:46,126 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-17_1912.xlsx
+2025-04-17 19:12:59,954 - INFO - Sync completed: RAW @ CCS Progress tracker_Update.xlsx (Time taken: 13.83s)
+2025-04-17 19:12:59,959 - INFO - === Sheet Sync Finished ===
+
+2025-04-21 15:19:49,798 - INFO - === Sheet Sync Started ===
+2025-04-21 15:19:49,799 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-21 15:19:49,805 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-21_1519.xlsx
+2025-04-21 15:20:02,572 - INFO - Sync completed: RAW @ CCS Progress tracker_Update.xlsx (Time taken: 12.77s)
+2025-04-21 15:20:02,578 - INFO - === Sheet Sync Finished ===
+
+2025-04-23 10:09:24,639 - INFO - === Sheet Sync Started ===
+2025-04-23 10:09:24,639 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-23 10:09:24,647 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-23_1009.xlsx
+2025-04-23 10:09:39,311 - INFO - Sync completed: RAW @ CCS Progress tracker_Update.xlsx (Time taken: 14.67s)
+2025-04-23 10:09:39,317 - INFO - === Sheet Sync Finished ===
+
+2025-04-23 10:09:39,317 - INFO - === MasterDB Sync Started ===
+2025-04-23 10:14:31,899 - INFO - Uploading LTE...
+2025-04-23 10:14:46,599 - INFO - Uploading NR...
+2025-04-23 10:14:49,784 - INFO - === MasterDB Sync Finished ===
+
+2025-04-23 13:47:33,948 - INFO - === Sheet Sync Started ===
+2025-04-23 13:47:33,948 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-23 13:47:33,954 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-23_1347.xlsx
+2025-04-23 13:47:46,801 - INFO - Sync completed: RAW @ CCS Progress tracker_Update.xlsx (Time taken: 12.85s)
+2025-04-23 13:47:46,809 - INFO - Starting sync: Cluster Progress @ CCS Progress tracker_Update.xlsx
+2025-04-23 13:47:46,816 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-23_1347.xlsx
+2025-04-23 13:48:07,618 - INFO - Sync completed: Cluster Progress @ CCS Progress tracker_Update.xlsx (Time taken: 20.81s)
+2025-04-23 13:48:07,624 - INFO - === Sheet Sync Finished ===
+
+2025-04-23 19:34:24,120 - INFO - === Sheet Sync Started ===
+2025-04-23 19:34:24,120 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-23 19:34:24,137 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-23_1934.xlsx
+2025-04-23 19:34:38,245 - INFO - Sync completed: RAW @ CCS Progress tracker_Update.xlsx (Time taken: 14.12s)
+2025-04-23 19:34:38,256 - INFO - Starting sync: Cluster Progress @ CCS Progress tracker_Update.xlsx
+2025-04-23 19:34:38,261 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-23_1934.xlsx
+2025-04-23 19:35:01,689 - INFO - Sync completed: Cluster Progress @ CCS Progress tracker_Update.xlsx (Time taken: 23.43s)
+2025-04-23 19:35:01,695 - INFO - === Sheet Sync Finished ===
+
+2025-04-24 10:46:04,118 - INFO - === Sheet Sync Started ===
+2025-04-24 10:46:04,118 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-24 10:46:04,119 - ERROR - Sync failed: RAW @ CCS Progress tracker_Update.xlsx | Error: [WinError 2] The system cannot find the file specified
+2025-04-24 10:46:04,119 - INFO - Starting sync: Cluster Progress @ CCS Progress tracker_Update.xlsx
+2025-04-24 10:46:04,119 - ERROR - Sync failed: Cluster Progress @ CCS Progress tracker_Update.xlsx | Error: [WinError 2] The system cannot find the file specified
+2025-04-24 10:46:04,119 - INFO - === Sheet Sync Finished ===
+
+2025-04-24 10:55:41,348 - INFO - === Sheet Sync Started ===
+2025-04-24 10:55:41,348 - INFO - Starting sync: RAW @ CCS Progress tracker_Update.xlsx
+2025-04-24 10:55:41,353 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-24_1055.xlsx
+2025-04-24 10:55:54,547 - INFO - Sync completed: RAW @ CCS Progress tracker_Update.xlsx (Time taken: 13.20s)
+2025-04-24 10:55:54,552 - INFO - Starting sync: Cluster Progress @ CCS Progress tracker_Update.xlsx
+2025-04-24 10:55:54,558 - INFO - Backup created: D:\D&T Project\Progress\CCS Progress tracker_Update_backup_2025-04-24_1055.xlsx
+2025-04-24 10:56:12,282 - INFO - Sync completed: Cluster Progress @ CCS Progress tracker_Update.xlsx (Time taken: 17.73s)
+2025-04-24 10:56:12,287 - INFO - === Sheet Sync Finished ===
+
